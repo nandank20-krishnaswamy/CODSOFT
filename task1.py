@@ -1,7 +1,4 @@
-
-
 tasks = []
-
 def show_menu():
     print("\n--- To-Do List Menu ---")
     print("1. View tasks")
@@ -42,7 +39,7 @@ def delete_task():
     except (ValueError, IndexError):
         print("Invalid task number.")
 
-# Main loop
+
 while True:
     show_menu()
     choice = input("Choose an option (1-5): ")
@@ -60,4 +57,5 @@ while True:
         break
     else:
         print("Invalid choice, try again.")
+
 
