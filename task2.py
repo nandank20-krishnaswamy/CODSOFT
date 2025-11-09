@@ -1,6 +1,4 @@
-# Simple Calculator Program
 
-# Prompt user for input
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
@@ -12,7 +10,7 @@ print("4. Division (/)")
 
 choice = input("Enter choice (1/2/3/4): ")
 
-# Perform calculation
+
 if choice == '1':
     result = num1 + num2
     print(f"The result of addition is: {result}")
@@ -30,3 +28,4 @@ elif choice == '4':
         print("Error! Division by zero is not allowed.")
 else:
     print("Invalid choice. Please select 1, 2, 3, or 4.")
+
