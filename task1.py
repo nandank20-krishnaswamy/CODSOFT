@@ -1,5 +1,4 @@
-# Simple To-Do List Application
-# Student-style project
+
 
 tasks = []
 
@@ -61,3 +60,4 @@ while True:
         break
     else:
         print("Invalid choice, try again.")
+
